@@ -105,7 +105,9 @@ const Transcript = forwardRef((_, ref) => {
           <li
             aria-labelledby={`transcript__row-id-${key}`}
             aria-roledescription="message"
-            aria-setsize={-1} // Edge: aria-setsize="-1" has no effect. Will continue to narrate "X of 5".
+            // Edge: aria-setsize="-1" has no effect. Will continue to narrate "X of 5".
+            // Safari: aria-posinset/aria-setsize has no effect. Will not narrate anything related to position.
+            aria-setsize={-1}
             className="transcript__row"
             id={key === focusedActivityKey ? activeDescendantId : undefined}
             key={key}
