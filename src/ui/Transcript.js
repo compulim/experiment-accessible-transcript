@@ -99,7 +99,9 @@ const Transcript = forwardRef((_, ref) => {
     >
       <ul
         className="transcript__list"
-        role="feed" // TODO: Trying out role="feed" to see if it improves usability.
+        // TODO: Trying out role="feed" to see if it improves usability.
+        //       We might also want to use <section>/<article> over <ul>/<li>.
+        role="feed"
       >
         {sortedTranscriptArray.map(([key, activity]) => (
           <li
