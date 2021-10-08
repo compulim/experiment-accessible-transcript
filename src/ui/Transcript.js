@@ -89,7 +89,7 @@ const Transcript = forwardRef((_, ref) => {
 
   return (
     <div
-      aria-activedescendant={activeDescendantId}
+      aria-activedescendant={activeDescendantId} // Active descendant cannot be used on role="feed". The closest we can get is either role="grid" or role="group".
       aria-roledescription="transcript"
       className="transcript"
       onKeyDown={handleKeyDown}
@@ -97,7 +97,10 @@ const Transcript = forwardRef((_, ref) => {
       role="group" // Safari: role="group" is required, otherwise, it won't narrate on active descendant change.
       tabIndex={0}
     >
-      <ul className="transcript__list" role="feed">
+      <ul
+        className="transcript__list"
+        role="feed" // TODO: Trying out role="feed" to see if it improves usability.
+      >
         {sortedTranscriptArray.map(([key, activity]) => (
           <li
             aria-labelledby={`transcript__row-id-${key}`}
@@ -106,7 +109,7 @@ const Transcript = forwardRef((_, ref) => {
             className="transcript__row"
             id={key === focusedActivityKey ? activeDescendantId : undefined}
             key={key}
-            role="article"
+            role="article" // TODO: Trying out role="feed" to see if it improves usability.
           >
             <Activity end={activity.from === 'user'} id={`transcript__row-id-${key}`}>
               {activity.text}
