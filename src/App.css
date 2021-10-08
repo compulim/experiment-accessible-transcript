@@ -20,4 +20,5 @@
 .app__panel-body {
   align-self: stretch;
   overflow-y: auto;
+  padding-bottom: 1em;
 }
