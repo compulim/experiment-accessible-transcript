@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/experiment-accessible-transcript/static/css/main.612ef64c.chunk.css",
-    "main.js": "/experiment-accessible-transcript/static/js/main.760d446b.chunk.js",
-    "main.js.map": "/experiment-accessible-transcript/static/js/main.760d446b.chunk.js.map",
-    "runtime-main.js": "/experiment-accessible-transcript/static/js/runtime-main.86ca5bd4.js",
-    "runtime-main.js.map": "/experiment-accessible-transcript/static/js/runtime-main.86ca5bd4.js.map",
+    "main.css": "/experiment-accessible-transcript/static/css/main.9d54c9c6.chunk.css",
+    "main.js": "/experiment-accessible-transcript/static/js/main.9ffc1fde.chunk.js",
+    "main.js.map": "/experiment-accessible-transcript/static/js/main.9ffc1fde.chunk.js.map",
+    "runtime-main.js": "/experiment-accessible-transcript/static/js/runtime-main.74c0cf03.js",
+    "runtime-main.js.map": "/experiment-accessible-transcript/static/js/runtime-main.74c0cf03.js.map",
     "static/js/2.f895b744.chunk.js": "/experiment-accessible-transcript/static/js/2.f895b744.chunk.js",
     "static/js/2.f895b744.chunk.js.map": "/experiment-accessible-transcript/static/js/2.f895b744.chunk.js.map",
-    "static/js/3.fd4eaf64.chunk.js": "/experiment-accessible-transcript/static/js/3.fd4eaf64.chunk.js",
-    "static/js/3.fd4eaf64.chunk.js.map": "/experiment-accessible-transcript/static/js/3.fd4eaf64.chunk.js.map",
+    "static/js/3.e7c1680d.chunk.js": "/experiment-accessible-transcript/static/js/3.e7c1680d.chunk.js",
+    "static/js/3.e7c1680d.chunk.js.map": "/experiment-accessible-transcript/static/js/3.e7c1680d.chunk.js.map",
     "index.html": "/experiment-accessible-transcript/index.html",
-    "static/css/main.612ef64c.chunk.css.map": "/experiment-accessible-transcript/static/css/main.612ef64c.chunk.css.map",
+    "static/css/main.9d54c9c6.chunk.css.map": "/experiment-accessible-transcript/static/css/main.9d54c9c6.chunk.css.map",
     "static/js/2.f895b744.chunk.js.LICENSE.txt": "/experiment-accessible-transcript/static/js/2.f895b744.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.86ca5bd4.js",
+    "static/js/runtime-main.74c0cf03.js",
     "static/js/2.f895b744.chunk.js",
-    "static/css/main.612ef64c.chunk.css",
-    "static/js/main.760d446b.chunk.js"
+    "static/css/main.9d54c9c6.chunk.css",
+    "static/js/main.9ffc1fde.chunk.js"
   ]
 }
