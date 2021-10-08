@@ -96,9 +96,9 @@ const Transcript = forwardRef((_, ref) => {
       ref={ref}
       tabIndex={0}
     >
-      <ul className="transcript__list">
+      <section role="feed" className="transcript__list">
         {sortedTranscriptArray.map(([key, activity]) => (
-          <li
+          <article
             aria-labelledby={`transcript__row-id-${key}`}
             className="transcript__row"
             id={key === focusedActivityKey ? activeDescendantId : undefined}
@@ -108,9 +108,9 @@ const Transcript = forwardRef((_, ref) => {
               {activity.text}
             </Activity>
             {key === focusedActivityKey && <div className="transcript__row-focus-ring" />}
-          </li>
+          </article>
         ))}
-      </ul>
+      </section>
       <div className="transcript__focus-ring" />
     </div>
   );
