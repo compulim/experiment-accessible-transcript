@@ -1,6 +1,7 @@
 import { useRef } from 'react';
 import './App.css';
 
+import ForkOnGitHub from './ui/ForkOnGitHub';
 import OuterHTMLView from './ui/OuterHTMLView';
 import Transcript from './ui/Transcript';
 
@@ -21,6 +22,7 @@ function App() {
           <OuterHTMLView elementRef={transcriptRef} />
         </div>
       </section>
+      <ForkOnGitHub />
     </div>
   );
 }
