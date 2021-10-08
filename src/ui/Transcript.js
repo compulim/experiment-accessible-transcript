@@ -25,6 +25,19 @@ const TRANSCRIPT = {
     from: 'bot',
     text: 'Hello, Alex.',
     timestamp: 3
+  },
+  a4: {
+    from: 'bot',
+    text: (
+      <>
+        You can check the{' '}
+        <a href="https://www.bing.com/search?q=weather+in+redmond" rel="noopener noreferrer" target="_blank">
+          weather forecast
+        </a>{' '}
+        on Bing.
+      </>
+    ),
+    timestamp: 4
   }
 };
 
