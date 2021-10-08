@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/experiment-accessible-transcript/static/css/main.40737031.chunk.css",
-    "main.js": "/experiment-accessible-transcript/static/js/main.ffc59922.chunk.js",
-    "main.js.map": "/experiment-accessible-transcript/static/js/main.ffc59922.chunk.js.map",
-    "runtime-main.js": "/experiment-accessible-transcript/static/js/runtime-main.5b0182dd.js",
-    "runtime-main.js.map": "/experiment-accessible-transcript/static/js/runtime-main.5b0182dd.js.map",
-    "static/js/2.bbe943d6.chunk.js": "/experiment-accessible-transcript/static/js/2.bbe943d6.chunk.js",
-    "static/js/2.bbe943d6.chunk.js.map": "/experiment-accessible-transcript/static/js/2.bbe943d6.chunk.js.map",
-    "static/js/3.1cbe6dea.chunk.js": "/experiment-accessible-transcript/static/js/3.1cbe6dea.chunk.js",
-    "static/js/3.1cbe6dea.chunk.js.map": "/experiment-accessible-transcript/static/js/3.1cbe6dea.chunk.js.map",
+    "main.css": "/experiment-accessible-transcript/static/css/main.612ef64c.chunk.css",
+    "main.js": "/experiment-accessible-transcript/static/js/main.75f95dab.chunk.js",
+    "main.js.map": "/experiment-accessible-transcript/static/js/main.75f95dab.chunk.js.map",
+    "runtime-main.js": "/experiment-accessible-transcript/static/js/runtime-main.86ca5bd4.js",
+    "runtime-main.js.map": "/experiment-accessible-transcript/static/js/runtime-main.86ca5bd4.js.map",
+    "static/js/2.f895b744.chunk.js": "/experiment-accessible-transcript/static/js/2.f895b744.chunk.js",
+    "static/js/2.f895b744.chunk.js.map": "/experiment-accessible-transcript/static/js/2.f895b744.chunk.js.map",
+    "static/js/3.fd4eaf64.chunk.js": "/experiment-accessible-transcript/static/js/3.fd4eaf64.chunk.js",
+    "static/js/3.fd4eaf64.chunk.js.map": "/experiment-accessible-transcript/static/js/3.fd4eaf64.chunk.js.map",
     "index.html": "/experiment-accessible-transcript/index.html",
-    "static/css/main.40737031.chunk.css.map": "/experiment-accessible-transcript/static/css/main.40737031.chunk.css.map",
-    "static/js/2.bbe943d6.chunk.js.LICENSE.txt": "/experiment-accessible-transcript/static/js/2.bbe943d6.chunk.js.LICENSE.txt"
+    "static/css/main.612ef64c.chunk.css.map": "/experiment-accessible-transcript/static/css/main.612ef64c.chunk.css.map",
+    "static/js/2.f895b744.chunk.js.LICENSE.txt": "/experiment-accessible-transcript/static/js/2.f895b744.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.5b0182dd.js",
-    "static/js/2.bbe943d6.chunk.js",
-    "static/css/main.40737031.chunk.css",
-    "static/js/main.ffc59922.chunk.js"
+    "static/js/runtime-main.86ca5bd4.js",
+    "static/js/2.f895b744.chunk.js",
+    "static/css/main.612ef64c.chunk.css",
+    "static/js/main.75f95dab.chunk.js"
   ]
 }
