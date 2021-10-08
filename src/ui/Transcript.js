@@ -94,16 +94,19 @@ const Transcript = forwardRef((_, ref) => {
       className="transcript"
       onKeyDown={handleKeyDown}
       ref={ref}
-      role="group"
+      role="group" // Safari: role="group" is required, otherwise, it won't narrate on active descendant change.
       tabIndex={0}
     >
-      <ul className="transcript__list">
+      <ul className="transcript__list" role="feed">
         {sortedTranscriptArray.map(([key, activity]) => (
           <li
             aria-labelledby={`transcript__row-id-${key}`}
+            aria-roledescription="message"
+            aria-setsize={-1} // Edge: aria-setsize="-1" has no effect. Will continue to narrate "X of 5".
             className="transcript__row"
             id={key === focusedActivityKey ? activeDescendantId : undefined}
             key={key}
+            role="article"
           >
             <Activity end={activity.from === 'user'} id={`transcript__row-id-${key}`}>
               {activity.text}
