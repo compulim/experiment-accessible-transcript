@@ -1,0 +1,24 @@
+.labelled-by {
+  margin-top: 0;
+  padding: 10px;
+}
+
+.labelled-by__header {
+  font-size: large;
+  font-weight: lighter;
+  margin-top: 0;
+}
+
+.labelled-by__button {
+  font-family: inherit;
+  font-size: smaller;
+  padding: 10px;
+}
+
+.labelled-by__label {
+  background-color: #ffc;
+  border: solid 1px #cc9;
+  border-radius: 4px;
+  margin-inline: 0;
+  padding: 10px;
+}

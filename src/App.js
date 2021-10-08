@@ -2,6 +2,7 @@ import { useRef } from 'react';
 import './App.css';
 
 import ForkOnGitHub from './ui/ForkOnGitHub';
+import LabelledBy from './ui/LabelledBy';
 import OuterHTMLView from './ui/OuterHTMLView';
 import Transcript from './ui/Transcript';
 
@@ -14,6 +15,10 @@ function App() {
         <h1 className="app__panel-header">Accessible transcript</h1>
         <div className="app__panel-body">
           <Transcript ref={transcriptRef} />
+        </div>
+        <h1 className="app__panel-header">Further investigations</h1>
+        <div className="app__panel-body">
+          <LabelledBy />
         </div>
       </section>
       <section className="app__panel">
